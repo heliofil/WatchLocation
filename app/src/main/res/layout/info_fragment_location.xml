@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/H3.Padding">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/H3.Text.Padding">
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textTimeValue"
+            android:textAppearance="@style/H3.TextAppearance.Info.Title"
+            android:text="@string/txt_loading" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textDateValue"
+            android:textAppearance="@style/H3.TextAppearance.Info.SubTitle"
+            android:text="@string/txt_loading"
+            android:layout_marginTop="@dimen/H3.Proximity"
+           />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/txt_latitude"
+            android:id="@+id/textLatitude"
+            android:textAppearance="@style/H3.TextAppearance.Info.MiniTitle" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textLatitudeValue"
+            android:textAppearance="@style/H3.TextAppearance.Info.SubTitle"
+            android:text="@string/txt_loading"
+            android:layout_marginTop="@dimen/H3.Proximity"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/txt_longitude"
+            android:id="@+id/textLongitude"
+            android:textAppearance="@style/H3.TextAppearance.Info.MiniTitle" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textLongitudeValue"
+            android:textAppearance="@style/H3.TextAppearance.Info.SubTitle"
+            android:text="@string/txt_loading"
+            android:layout_marginTop="@dimen/H3.Proximity" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:baselineAligned="false"
+        android:gravity="bottom|right">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/txt_accuracy"
+            android:id="@+id/textAccuracy"
+            android:textAppearance="@style/H3.TextAppearance.Info" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textAccuracyValue"
+            android:textAppearance="@style/H3.TextAppearance.Info"
+            android:text="@string/txt_loading"
+            android:layout_marginTop="@dimen/H3.Proximity" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="H3.FontSize">12dp</dimen>
+    <dimen name="H3.Zero">0dp</dimen>
+    <dimen name="H3.Title.FontSize">22dp</dimen>
+    <dimen name="H3.SubTitle.FontSize">20dp</dimen>
+    <dimen name="H3.MiniTitle.FontSize">16dp</dimen>
+    <dimen name="H3.Padding">5dp</dimen>
+    <dimen name="H3.Text.Padding">1dp</dimen>
+    <dimen name="H3.View.Padding">3dp</dimen>
+    <dimen name="H3.Text.Size">40dp</dimen>
+    <dimen name="H3.Text.Mini.FontSize">10dp</dimen>
+    <dimen name="H3.Proximity">-5dp</dimen>
+    <color name="H3.Black" >#ad00001d</color>
+    <color name="H3.White" >#fffbfbff</color>
+    <color name="H3.Yellow" >#ffe8b411</color>
+    <color name="H3.Blue" >#ff02a4b4</color>
+    <color name="H3.Green" >#ff2ea713</color>
+    <color name="H3.Dark.Green" >#ef163a16</color>
+    <color name="H3.Red" >#ffe81c15</color>
+
+    <style name="H3.TextAppearance" parent="android:TextAppearance">
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:textSize">@dimen/H3.FontSize</item>
+        <item name="android:textColor">@color/H3.Black</item>
+        <item name="android:gravity">center_vertical|left</item>
+    </style>
+
+    <style name="H3.TextAppearance.Info" parent="android:TextAppearance">
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:textSize">@dimen/H3.FontSize</item>
+        <item name="android:textColor">@color/H3.Dark.Green</item>
+    </style>
+
+    <style name="H3.TextAppearance.Mini" parent="android:TextAppearance">
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:textSize">@dimen/H3.Text.Mini.FontSize</item>
+        <item name="android:textColor">@color/H3.White</item>
+    </style>
+
+    <style name="H3.TextAppearance.Info.Title" parent="H3.TextAppearance.Info">
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">@dimen/H3.Title.FontSize</item>
+        <item name="android:gravity">right</item>
+    </style>
+
+    <style name="H3.TextAppearance.Info.MiniTitle" parent="H3.TextAppearance.Info">
+        <item name="android:textStyle">bold</item>
+        <item name="android:gravity">right</item>
+        <item name="android:textSize">@dimen/H3.MiniTitle.FontSize</item>
+    </style>
+
+    <style name="H3.TextAppearance.Info.SubTitle" parent="H3.TextAppearance.Info">
+        <item name="android:textStyle">bold</item>
+        <item name="android:gravity">right</item>
+        <item name="android:textSize">@dimen/H3.SubTitle.FontSize</item>
+    </style>
+
+    <style name="H3.TextAppearance.Title" parent="H3.TextAppearance">
+         <item name="android:textSize">@dimen/H3.Title.FontSize</item>
+        <item name="android:textColor">@color/H3.Blue</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:gravity">center_horizontal|center</item>
+    </style>
+
+    <style name="H3.TextAppearance.SubTitle" parent="H3.TextAppearance">
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:textSize">@dimen/H3.SubTitle.FontSize</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="H3.Light" parent="@android:style/Theme.DeviceDefault">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@color/H3.White</item>
+        <item name="android:textViewStyle" >@style/H3.TextAppearance</item>
+     </style>
+</resources>

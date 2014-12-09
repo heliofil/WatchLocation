@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Watch Location</string>
+    <string name="txt_time">Time</string>
+    <string name="txt_date">Date (UTC)</string>
+    <string name="txt_latitude">Latitude</string>
+    <string name="txt_longitude">Longitude</string>
+    <string name="txt_speed">Speed</string>
+    <string name="txt_compass">Compass</string>
+    <string name="txt_altimeter">Altimeter</string>
+    <string name="txt_accuracy">Accuracy</string>
+    <string name="txt_bearing">Bearing</string>
+    <string name="txt_latitude_abrv">Lat:</string>
+    <string name="txt_longitude_abrv">Lon:</string>
+    <string name="txt_speed_abrv">Spd:</string>
+    <string name="txt_altimeter_abrv">Alt:</string>
+    <string name="txt_accuracy_abrv">Acc:</string>
+    <string name="txt_bearing_abrv">Brg:</string>
+    <string name="txt_true_north_abv">T.N.:</string>
+    <string name="txt_loading">Loading...</string>
+    <string name="txt_true_north">True North</string>
+    <string name="txt_compass_north">North</string>
+    <string name="txt_compass_north_abv">N</string>
+    <string name="txt_compass_northeast">NorthEast</string>
+    <string name="txt_compass_northeast_abv">NE</string>
+    <string name="txt_compass_east">East</string>
+    <string name="txt_compass_east_abv">E</string>
+    <string name="txt_compass_southeast">SouthEast</string>
+    <string name="txt_compass_southeast_abv">SE</string>
+    <string name="txt_compass_south">South</string>
+    <string name="txt_compass_south_abv">S</string>
+    <string name="txt_compass_southwest">SouthWest</string>
+    <string name="txt_compass_southwest_abv">SW</string>
+    <string name="txt_compass_west">West</string>
+    <string name="txt_compass_west_abv">W</string>
+    <string name="txt_compass_northwest">NorthWest</string>
+    <string name="txt_compass_northwest_abv">NW</string>
+</resources>
